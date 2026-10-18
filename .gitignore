@@ -1,0 +1,15 @@
+# Ship only the plugin, the README and the GitHub Pages files.
+# Tests, dev notes and agent output stay local.
+/*
+!/.gitignore
+!/README.md
+!/AZ-SuperPreview.glyphsPlugin/
+!/docs/
+/docs/*
+!/docs/install.html
+!/docs/images/
+
+.DS_Store
+__pycache__/
+*.pyc
+.ruff_cache/
